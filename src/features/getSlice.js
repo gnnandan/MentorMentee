@@ -6,13 +6,10 @@ export const getSlice = createSlice({
     addData: (state,action) => {
      state.push(action.payload);
     },
-    deleteData:(state, action) => {
-
-    }
   },
 })
 
 
-export const {  addData, deleteData } = getSlice.actions
+export const {  addData } = getSlice.actions
 
 export default getSlice.reducer
