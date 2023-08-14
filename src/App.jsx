@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 function App() {
  const dispatch = useDispatch();
- const apiData = useSelector((state) => state.post);
+ const apiData = useSelector((state) => state.getData);
   async function getApi(){
     const res = await  axios.get('https://dummyjson.com/products');
     const data =  await res.data.products;

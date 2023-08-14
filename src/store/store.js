@@ -3,6 +3,6 @@ import getSlice from '../features/getSlice';
 
 export const store = configureStore({
   reducer: {
-    post : getSlice
+    getData : getSlice
   },
 })
