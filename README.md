@@ -1,21 +1,32 @@
 M&M - Frontend
 Prerequisites
 
-Download the following 
+Download the following.
 
-1.Node JS
-2.Visual Studio Code
+1.Node JS 
+
+https://nodejs.org/en
+
+2.Visual Studio Code 
+
+https://code.visualstudio.com/
 
 Create React App Using Vite with below commands
 
 1.type *npm create vite@latest* in your vsc terminal
+
 2.go to your created folder & type *npm init* for node_modules & package-lock.json
+
 3.type *npm run dev* to run react app.
 
 Integrate Your App with 
+
 1.Tailwind CSS
+
 2.Axios
+
 3.Router
+
 4.Redux Toolkit
 
 1. Tailwind CSS 
@@ -30,21 +41,33 @@ This will create two config files -> Postcss.config.js & tailwind.config.js
 step 3: replace the code in tailwind.config.js file with the below code.
 
 /** @type {import('tailwindcss').Config} */
+
 export default {
+
   content: [
+
     "./index.html",
+
     "./src/**/*.{js,ts,jsx,tsx}",
+
   ],
+
   theme: {
+
     extend: {},
+
   },
+
   plugins: [],
+
 }
 
 step 4: Go to index.css file & add this directives
 
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
 
 step 5 : Tailwind Setup is done. 
