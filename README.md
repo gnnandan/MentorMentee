@@ -82,7 +82,7 @@ axios.get(url)
 
 https://www.npmjs.com/package/react-router-dom
 
-step 1 : type *https://www.npmjs.com/package/react-router-dom* in your terminal.
+step 1 : type *npm i react-router-dom* in your terminal.
 
 follow the remaining steps
 
