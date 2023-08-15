@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <div className="text-center m-auto">
+    <div className="text-center">
       <Navbar/>
-      Home
+      <h1 className= "mt-20 text-2xl">Home</h1>
     </div>
   )
 }

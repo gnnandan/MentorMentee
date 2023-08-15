@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="text-center m-auto">
     <Navbar/>
-    Contact
+    <h1 className= "mt-20 text-2xl">Contact</h1>
   </div>
   )
 }
