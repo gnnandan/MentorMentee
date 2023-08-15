@@ -23,8 +23,10 @@ Integrate Your App with
 https://tailwindcss.com/docs/guides/vite
 
 step 1:type  *npm install -D tailwindcss postcss autoprefixer*
+
 step 2:type  *npx tailwindcss init -p* 
 This will create two config files -> Postcss.config.js & tailwind.config.js
+
 step 3: replace the code in tailwind.config.js file with the below code.
 
 /** @type {import('tailwindcss').Config} */
@@ -45,7 +47,7 @@ step 4: Go to index.css file & add this directives
 @tailwind components;
 @tailwind utilities;
 
-step 6 : Tailwind Setup is done. 
+step 5 : Tailwind Setup is done. 
 
 2. How to setup Axios in your project.
 
@@ -75,6 +77,7 @@ https://reactrouter.com/en/main/start/tutorial
 4. How to Integrate Redux ToolKit
 
 step 1: type *npm i @reduxjs/toolkit*
+
 step 2 : type *npm i react-redux*
 
 follow the remaining steps
