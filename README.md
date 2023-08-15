@@ -45,21 +45,16 @@ step 3: replace the code in tailwind.config.js file with the below code.
 export default {
 
   content: [
-
     "./index.html",
 
     "./src/**/*.{js,ts,jsx,tsx}",
-
   ],
 
   theme: {
-
-    extend: {},
-
+  extend: {},
   },
 
   plugins: [],
-
 }
 
 step 4: Go to index.css file & add this directives
