@@ -43,17 +43,13 @@ step 3: replace the code in tailwind.config.js file with the below code.
 /** @type {import('tailwindcss').Config} */
 
 export default {
-
-  content: [
+    content: [
     "./index.html",
-
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-
   theme: {
   extend: {},
   },
-
   plugins: [],
 }
 
