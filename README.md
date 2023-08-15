@@ -15,7 +15,7 @@ Create React App Using Vite with below commands
 
 1.type *npm create vite@latest* in your vsc terminal
 
-2.go to your created folder & type *npm init* for node_modules & package-lock.json
+2.go to your created folder & type *npm init* in your terminal for node_modules & package-lock.json
 
 3.type *npm run dev* to run react app.
 
@@ -36,7 +36,7 @@ https://tailwindcss.com/docs/guides/vite
 step 1:type  *npm install -D tailwindcss postcss autoprefixer*
 
 step 2:type  *npx tailwindcss init -p* 
-This will create two config files -> Postcss.config.js & tailwind.config.js
+These two commands will create two config files -> Postcss.config.js & tailwind.config.js
 
 step 3: replace the code in tailwind.config.js file with the below code.
 
@@ -71,7 +71,7 @@ step 1 : type *npm i axios* in your terminal.
 
 step 2 : import axios from "axios";
 
-step 3 : use axios in your app using 
+step 3 : use axios in your app like
 
 axios.get(url)
   .then(res => {
